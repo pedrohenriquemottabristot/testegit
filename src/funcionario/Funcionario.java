@@ -2,9 +2,9 @@ package funcionario;
 
 public class Funcionario {
 
-        String nome;
-        String departamento;
-        double salario;//1000
+       private String nome;
+        private String departamento;
+        private double salario;//1000
 
         public Funcionario (String nome,String departamento,double salario){
             this.nome= nome;
